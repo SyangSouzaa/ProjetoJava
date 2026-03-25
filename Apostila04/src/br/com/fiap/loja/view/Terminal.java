@@ -53,5 +53,24 @@ public class Terminal {
         System.out.println(produto.nome + ", quantidade: " + produto.quantidade);
         System.out.println("R$ " + produto.preco + ", tem garantia: " + produto.garantia);
         System.out.println("Categoria: " + produto.categoria.nome + ", descrição: " + produto.categoria.descricao);
+
+
+        //Receber o valor do produto com o desconto
+        double churros = produto.calcularDesconto();
+        System.out.println("Valor promocional: " + churros);
+
+        //Alterar o valor do produto
+        System.out.println("Digite o novo valor do produto: ");
+        double precoNovo = entrada.nextDouble();
+        produto.alterarPreco(precoNovo);
+        System.out.println("Novo preco: " + produto.preco);
+
+
+        //Metodo para calcular o valor final do produto com desconto
+        System.out.println("Digite a nova quantidade de produto que deseja levar: ");
+        int qtd = entrada.nextInt();
+        double valorFinal = produto.novaQuantidade(qtd);
+        System.out.println("Valor final com desconto: " + valorFinal);
+
     }
 }

@@ -1,4 +1,4 @@
-package br.com.fiap.garagem.model;
+package br.com.fiap.exercicio01.model;
 
 public class Carro {
 
@@ -10,8 +10,13 @@ public class Carro {
         private String horaSaida;
         private double valor;
 
-        double calcularValorPagar(){
-            return 0;
+        public double calcularValorPagar(){
+                int tempo = calcularTempoEstadia();
+                return tempo * 15;
+        }
+
+        private int calcularTempoEstadia(){
+                return 5;
         }
 
 

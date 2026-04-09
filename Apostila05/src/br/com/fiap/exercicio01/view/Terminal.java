@@ -1,6 +1,6 @@
-package br.com.fiap.garagem.view;
+package br.com.fiap.exercicio01.view;
 
-import br.com.fiap.garagem.model.Carro;
+import br.com.fiap.exercicio01.model.Carro;
 
 public class Terminal {
 
@@ -14,7 +14,7 @@ public class Terminal {
         onix.setSetor('B');
         onix.setHoraEntrada("10:00");
         onix.setHoraSaida("11:30");
-        onix.setValor(12);
+        onix.setValor(15);
 
         //Exibir dados do carro
         System.out.println("Placa do carro: " + onix.getPlaca());

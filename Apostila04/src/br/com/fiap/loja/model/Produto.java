@@ -1,7 +1,8 @@
 package br.com.fiap.loja.model;
 
 public class Produto {
-    //Public - modificador de acesso que permite que todos tenham acesso
+
+    //public - modificador de acesso que permite que todos tenham acesso
     public double preco;
     public int quantidade;
     public String nome;
@@ -19,18 +20,15 @@ public class Produto {
         preco = novoPreco;
     }
 
-    public double novaQuantidade(int qtd){
+    public double calcularDescontoPorQuantidade(int qtd){
         double valorFinal;
-        if (qtd >= 5 && qtd < 10) {
+        if (qtd >= 5 && qtd < 10){
             valorFinal = preco * 0.85;
+        } else if (qtd >= 10){
+            valorFinal = preco * 0.8;
+        } else {
+            valorFinal = preco * 0.9;
         }
-        else if (qtd >= 10){
-            valorFinal = preco * 0.80;
-        }
-        else {
-            valorFinal = preco * 0.90;
-        }
-
         return valorFinal;
     }
 

@@ -3,18 +3,19 @@ package br.com.fiap.apostila07.view;
 import javax.swing.*;
 
 public class ExemploCondicaoEncadeada {
+
     public static void main(String[] args) {
         //Ler a média final do aluno
-        String media = JOptionPane.showInputDialog("Digite a nota da média final: ");
-        double nota = Double.parseDouble(media);
+        String mediaStr = JOptionPane.showInputDialog("Digite a média final");
+        double media = Double.parseDouble(mediaStr);
 
-        //Dizer se o aluno esta aprovado >=6
-        if (nota >= 6) {
+        if (media >=6) {
             JOptionPane.showMessageDialog(null, "Aprovado!");
-        } else if (nota >=4 && nota <=5.9) {
+        } else if (media >=4) {
             JOptionPane.showMessageDialog(null, "Exame!");
         } else {
-            JOptionPane.showMessageDialog(null, "Retido!");
+            JOptionPane.showMessageDialog(null, "Retido");
         }
-    }
-}
+
+    }//main
+}//class

@@ -11,6 +11,10 @@ public class Alimento extends Produto{
         this.validade = validade;
     }
 
+    public Alimento(int id, double preco, String nome, boolean perecivel) {
+        super(id, preco, nome);
+        this.perecivel = perecivel;
+    }
 
     public String getValidade() {
         return validade;

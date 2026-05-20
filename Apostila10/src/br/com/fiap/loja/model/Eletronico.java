@@ -12,6 +12,11 @@ public class Eletronico extends Produto {
         this.voltagem = voltagem;
     }
 
+    public Eletronico(double preco, String nome, boolean garantia) {
+        super(preco, nome);
+        this.garantia = garantia;
+    }
+
     public boolean isGarantia() {
         return garantia;
     }

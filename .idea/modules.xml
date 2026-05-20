@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Apostila03/Apostila03.iml" filepath="$PROJECT_DIR$/Apostila03/Apostila03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Apostila04/Apostila04.iml" filepath="$PROJECT_DIR$/Apostila04/Apostila04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Apostila04-Exercicios/Apostila04-Exercicios.iml" filepath="$PROJECT_DIR$/Apostila04-Exercicios/Apostila04-Exercicios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Apostila05/Apostila05.iml" filepath="$PROJECT_DIR$/Apostila05/Apostila05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Apostila05-Exercicios/Apostila05-Exercicios.iml" filepath="$PROJECT_DIR$/Apostila05-Exercicios/Apostila05-Exercicios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Apostila06/Apostila06.iml" filepath="$PROJECT_DIR$/Apostila06/Apostila06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Apostila06-Exercicio/Apostila06-Exercicio.iml" filepath="$PROJECT_DIR$/Apostila06-Exercicio/Apostila06-Exercicio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Apostila07/Apostila07.iml" filepath="$PROJECT_DIR$/Apostila07/Apostila07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Apostila07-Exercicios/Apostila07-Exercicios.iml" filepath="$PROJECT_DIR$/Apostila07-Exercicios/Apostila07-Exercicios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Apostila08/Apostila08.iml" filepath="$PROJECT_DIR$/Apostila08/Apostila08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Apostila08-Exercicios/Apostila08-Exercicios.iml" filepath="$PROJECT_DIR$/Apostila08-Exercicios/Apostila08-Exercicios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Apostila09/Apostila09.iml" filepath="$PROJECT_DIR$/Apostila09/Apostila09.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Apostila09-Exercicios/Apostila09-Exercicios.iml" filepath="$PROJECT_DIR$/Apostila09-Exercicios/Apostila09-Exercicios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Apostila10/Apostila10.iml" filepath="$PROJECT_DIR$/Apostila10/Apostila10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ProjetoJava.iml" filepath="$PROJECT_DIR$/.idea/ProjetoJava.iml" />
+    </modules>
+  </component>
+</project>

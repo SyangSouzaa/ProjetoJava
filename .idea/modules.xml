@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Atividades - Segundo Semestre/Apostila 11/Apostila 11.iml" filepath="$PROJECT_DIR$/Atividades - Segundo Semestre/Apostila 11/Apostila 11.iml" />
       <module fileurl="file://$PROJECT_DIR$/Apostila03/Apostila03.iml" filepath="$PROJECT_DIR$/Apostila03/Apostila03.iml" />
       <module fileurl="file://$PROJECT_DIR$/Apostila04/Apostila04.iml" filepath="$PROJECT_DIR$/Apostila04/Apostila04.iml" />
       <module fileurl="file://$PROJECT_DIR$/Apostila04-Exercicios/Apostila04-Exercicios.iml" filepath="$PROJECT_DIR$/Apostila04-Exercicios/Apostila04-Exercicios.iml" />

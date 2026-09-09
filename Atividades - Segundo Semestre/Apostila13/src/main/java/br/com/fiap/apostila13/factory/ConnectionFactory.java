@@ -6,11 +6,12 @@ import java.sql.SQLException;
 
 public class ConnectionFactory {
 
-    //static -> metodo pertence a classe e não ao objeto, ou seja, não precisa de uma instancia
-    public static Connection  getConnection() throws ClassNotFoundException, SQLException {
-        Connection conexao = DriverManager.getConnection("jdbc:oracle:thin:@oracle.fiap.com.br:1521:orcl", "RM569259", "180105");
-        return  conexao;
+    //static -> método pertence a classe e não ao objeto, ou seja, não precisa de uma instancia
+    public static Connection getConnection() throws ClassNotFoundException, SQLException {
+        Class.forName("oracle.jdbc.driver.OracleDriver");
+        Connection conexao = DriverManager.getConnection("jdbc:oracle:thin:@oracle.fiap.com.br:1521:orcl",
+                "pf0392", "izumi25");
+        return conexao;
     }
-
 
 }

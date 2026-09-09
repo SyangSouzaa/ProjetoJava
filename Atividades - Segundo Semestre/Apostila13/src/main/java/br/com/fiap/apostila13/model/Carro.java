@@ -9,8 +9,25 @@ public class Carro {
     private double valor;
     private boolean automatico;
 
+    @Override
+    public String toString() {
+        return id + " Modelo: " + modelo + " Ano: "
+                + ano + " Cor: " + cor + " Valor: " + valor + " Automático: " + automatico;
+    }
+
     //Construtores
-    public Carro (int id, int ano, String cor, String modelo, double valor, boolean automatico) {
+    public Carro() {
+    }
+
+    public Carro(int ano, String cor, String modelo, double valor, boolean automatico) {
+        this.ano = ano;
+        this.cor = cor;
+        this.modelo = modelo;
+        this.valor = valor;
+        this.automatico = automatico;
+    }
+
+    public Carro(int id, int ano, String cor, String modelo, double valor, boolean automatico) {
         this.id = id;
         this.ano = ano;
         this.cor = cor;
@@ -19,6 +36,7 @@ public class Carro {
         this.automatico = automatico;
     }
 
+    //Getters e Setters
     public int getId() {
         return id;
     }
